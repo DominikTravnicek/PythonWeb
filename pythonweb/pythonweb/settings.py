@@ -137,3 +137,9 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'dominiktravnicek281@gmail.com'
 EMAIL_HOST_PASSWORD = 'hscr fhgs wddr micp'
 EMAIL_USE_TLS = True
+
+# Define the base directory of your Django project
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Define the STATIC_ROOT setting
+STATIC_ROOT = os.path.join(BASE_DIR, 'pages/static')
