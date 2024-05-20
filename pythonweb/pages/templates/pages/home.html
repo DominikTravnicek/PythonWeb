@@ -1,0 +1,125 @@
+<!-- pages/templates/pages/home.html -->
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'pages/main.scss' %}">
+
+<main class="container">
+    <div class="pageSection">
+        <p class="topright">
+            <a href="#top">
+            Domů
+            </a>
+            <a href="#sluzby">
+            Služby
+            </a>
+            <a href="#portfolio">
+            Porfólio
+            </a>
+            <a href="#aboutme">
+            O mně
+            </a>
+            <a href="#contact">
+            Kontakt
+            </a>
+        </p>
+        <img id="home" src="{% static 'pages/logo.svg' %}" class="logo tauri" alt="Tauri logo"/>
+    </div>
+    <div class="pageSection">
+        <div id="sluzby" class="h1Style">
+        <h1>Služby</h1>
+        </div>
+        <div class="row-services">
+            <div>
+                <h2>"Mobilní aplikace"</h2>
+                <div class="containerPart">
+                    <img src="{% static 'pages/mobileapp.svg' %}" class="containerPartImage"></img>
+                    <p class="divText">
+                    "Vytvářím mobilní aplikace na míru v jazyku Dart a frameworku Flutter pro iOS a Android."
+                    </p>
+                </div>
+            </div>
+            <div>
+                <h2>"Webové stránky"</h2>
+                <div class="containerPart">
+                    <img src="{% static 'pages/web.svg' %}" class="containerPartImage"></img>
+                    <p class="divText">
+                    "Webovky jakéhokoliv rázu. Od firemních webovek po blogy."
+                    </p>
+                </div>
+            </div>
+            <div>
+                <h2>"Software"</h2>
+                <div class="containerPart">
+                    <img src="{% static 'pages/software.svg' %}" class="containerPartImage"></img>
+                    <p class="divText">
+                    "Software na míru, který je přesně přizpůsoben vašim potřebám."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pageSection">
+        <div id="portfolio" class="h1Style">
+            <h1>Porfólio</h1>
+        </div>
+        <div class="row">
+            <div class="rounded-image">
+                <img src="{% static 'pages/porfie.svg' %}" />
+            </div>
+            <div class="row-image">
+                <p>"Jedná se o aplikaci a webovou stránku, která vám má pomoct se zaznamenáváním vašeho osobního, ale i
+                kariérního života v podobě příspěvků podobných příspěvkům na sociálních sítích."</p>
+            </div>
+        </div>
+        <div class="row"> 
+            <div class="rounded-image">
+                <img src="{% static 'pages/Sova_1.svg' %}" id="sova" />
+            </div>
+            <div class="row-image">
+                <p>"V rámci digitalizace chytrých knih s elektronickými pery jsem byl součástí týmu pro výrobu aplikace pro estonské školky."</p>
+            </div>
+        </div>
+        <div class="row"> 
+            <div class="rounded-image">
+                <img src="{% static 'pages/SC.svg' %}" id="SC" />
+            </div>
+            <div class="row-image">
+                <p>"Má maturitní práce, která je napodobeninou Instagramu/Twitteru a vytvořil jsem jí v rámci zakončení studia."</p>
+            </div>
+        </div>
+        <div class="row"> 
+            <div class="rounded-image">
+                <img src="{% static 'pages/myweb.svg' %}" id="myweb" />
+            </div>
+            <div class="row-image">
+                <p>"Tato stránka jako taková je součástí mého portfólia. Je vytvořena pomocí HTML,CSS a hlavně backend Rust společně s frameworkem Leptos."</p>
+            </div>
+        </div>
+    </div>
+    <div class="pageSection">
+        <div id="aboutme" class="h1Style">
+            <h1>O mně</h1>
+        </div>
+        <div class="row-services">
+            <div class="rounded-image">
+                <img src="{% static 'pages/ja.jpg' %}" id="ja" />
+            </div>
+            <div class="row-image">
+                <p>"Jsem (zatím) studentem IT oboru ve 4. ročníku na SŠTE Olomoucká. Zaměřuju se na tvorbu webových a mobilních aplikací v jazyku Dart a frameworku
+                Flutter. Poslední dobou se zaměřuji hlavně na backend a to v jazyku Rust, popřípadě frameworku Leptos pro frontend."</p>
+            </div>
+        </div>
+    </div>
+    <div class="pageSection">
+        <div id="contact" class="h1Style">
+            <h1>Kontakt</h1>
+        </div>
+            <div class="formDiv">
+                <form method="post">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <button type="submit">Odeslat</button>
+                </form>
+            </div>
+    </div>
+</main>
