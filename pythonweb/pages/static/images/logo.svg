@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="91.079285mm"
+   height="80.000298mm"
+   viewBox="0 0 91.079285 80.000298"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.72693603"
+     inkscape:cx="366.60722"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1850"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-61.594938,-32.783946)">
+    <path
+       id="path1"
+       style="fill:#3d52d5;fill-opacity:1;stroke-width:0.264583"
+       d="M 112.6746,32.783947 A 40,40 0 0 0 78.272048,52.53623 30,30 0 0 1 99.409259,43.717647 30,30 0 0 1 129.40949,73.717365 30,30 0 0 1 99.409259,103.71761 30,30 0 0 1 81.454283,97.655435 40,40 0 0 0 112.6746,112.78424 40,40 0 0 0 152.67422,72.784085 40,40 0 0 0 112.6746,32.783947 Z" />
+    <path
+       id="path2"
+       style="fill:#3d52d5;fill-opacity:1;stroke-width:0.264583"
+       d="m 66.065471,46.324477 a 26.740946,31.144846 0 0 1 17.42529,29.184258 26.740946,31.144846 0 0 1 -21.895823,30.564555 30,30 0 0 0 2.751253,0.19688 30,30 0 0 0 29.99972,-29.999715 30,30 0 0 0 -28.28044,-29.945978 z" />
+  </g>
+</svg>

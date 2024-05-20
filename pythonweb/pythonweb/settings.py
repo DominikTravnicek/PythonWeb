@@ -141,5 +141,11 @@ EMAIL_USE_TLS = True
 # Define the base directory of your Django project
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# Define the STATIC_ROOT setting
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')                                                                                                                                                                                                 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'pages', "static"),
+]
+
+ALLOWED_HOSTS = ['*']
