@@ -1,1 +1,1 @@
-web: gunicorn pythoweb.wsgi --log-file -
+web: gunicorn pythoweb.wsgi
