@@ -142,4 +142,4 @@ EMAIL_USE_TLS = True
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Define the STATIC_ROOT setting
-STATIC_ROOT = os.path.join(BASE_DIR, 'pages/static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
